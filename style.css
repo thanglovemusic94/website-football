@@ -41,7 +41,7 @@ header .menu > li:hover{
 header .menu > li > a{
     text-decoration: none;
     display: block;
-    padding: 20px 50px;
+    padding: 20px 40px;
 }
 
 header .menu > li:hover > ul.submenu{
@@ -234,5 +234,13 @@ footer p{
 
 
 
+ @media only screen and (max-width: 1200px){
+    .content{
+        max-width: 1200px;
+    }
 
+    header .menu > li > a{
+        padding: 20px 30px;
+    }
+  }
 
